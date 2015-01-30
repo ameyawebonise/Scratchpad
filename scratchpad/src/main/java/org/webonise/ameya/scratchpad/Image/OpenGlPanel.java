@@ -239,12 +239,6 @@ public class OpenGlPanel extends SwingNode implements GLEventListener,
     @Override
     public void keyPressed(KeyEvent e) {
         switch (e.getKeyCode()) {
-            case KeyEvent.VK_RIGHT:
-                //selectNext();
-                break;
-            case KeyEvent.VK_LEFT:
-                //selectPrevious();
-                break;
             case KeyEvent.VK_UP:
                 zoomIn();
                 break;
