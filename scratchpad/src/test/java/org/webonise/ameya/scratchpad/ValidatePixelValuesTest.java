@@ -11,35 +11,35 @@ public class ValidatePixelValuesTest {
 
     @Test
     public void validateSetOne() throws Exception {
-        int x = 513;
-        int y = 384;
+        int mouseX = 513;
+        int mouseY = 384;
         float expectedXValue = 1251;
         float expectedYValue = 1029;
 
-        assertEquals(expectedXValue, getCalculatedXValue(x), DELTA);
-        assertEquals(expectedYValue, getCalculatedYValue(y), DELTA);
+        assertEquals(expectedXValue, getCalculatedXValue(mouseX), DELTA);
+        assertEquals(expectedYValue, getCalculatedYValue(mouseY), DELTA);
     }
 
     @Test
     public void validateSetTwo() throws Exception {
-        int x = 471;
-        int y = 256;
+        int mouseX = 471;
+        int mouseY = 256;
         float expectedXValue = 1118;
         float expectedYValue = 628;
 
-        assertEquals(expectedXValue, getCalculatedXValue(x), DELTA);
-        assertEquals(expectedYValue, getCalculatedYValue(y), DELTA);
+        assertEquals(expectedXValue, getCalculatedXValue(mouseX), DELTA);
+        assertEquals(expectedYValue, getCalculatedYValue(mouseY), DELTA);
     }
 
     @Test
     public void validateSetThree() throws Exception {
-        int x = 648;
-        int y = 421;
+        int mouseX = 648;
+        int mouseY = 421;
         float expectedXValue = 1674;
         float expectedYValue = 1147;
 
-        assertEquals(expectedXValue, getCalculatedXValue(x), DELTA);
-        assertEquals(expectedYValue, getCalculatedYValue(y), DELTA);
+        assertEquals(expectedXValue, getCalculatedXValue(mouseX), DELTA);
+        assertEquals(expectedYValue, getCalculatedYValue(mouseY), DELTA);
     }
 
     public float getCalculatedXValue(int x) {

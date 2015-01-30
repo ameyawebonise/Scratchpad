@@ -1,6 +1,6 @@
 *.iml
 *.log
-.idea
+.idea/
 .DS_Store
 .project
 .classpath
