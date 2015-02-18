@@ -27,7 +27,7 @@ public class UTMUtils {
         Unit<Angle> rads = RADIAN;
         LatLong latLon =  LatLong.valueOf(toRadians(latitude), toRadians(longitude),rads);
         UTM utm  = UTM.latLongToUtm(latLon, ReferenceEllipsoid.WGS84);
-        return         new UTMModel(utm.eastingValue(meters),utm.northingValue(meters));
+        return  new UTMModel(utm.eastingValue(meters),utm.northingValue(meters));
 
 
     }
