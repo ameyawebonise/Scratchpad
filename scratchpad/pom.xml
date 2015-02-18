@@ -7,6 +7,28 @@
     <groupId>org.webonise</groupId>
     <artifactId>scratchpad</artifactId>
     <version>1.0-SNAPSHOT</version>
+<dependencies>
+    <dependency>
+        <groupId>org.scream3r</groupId>
+        <artifactId>jssc</artifactId>
+        <version>2.8.0</version>
+    </dependency>
+
+    <!-- Testing Dependencies -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.11</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-lang3</artifactId>
+        <version>3.1</version>
+    </dependency>
+
+</dependencies>
 
 
 </project>
